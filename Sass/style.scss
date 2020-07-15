@@ -1,0 +1,48 @@
+//templete Main Colors
+$FirstColor: #08526d;
+$SecondColor: #ec1c23;
+
+/* Start Upper Bar */
+.upper-bar {
+  background-color: $FirstColor;
+  color: #fff;
+  padding: 10px;
+  .letwork {
+    color: #ddd;
+  }
+  .getqoute {
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid $SecondColor;
+    padding: 3px 6px;
+  }
+}
+/* End Upper bar */
+
+/* End Nav bar */
+.navbar-brand {
+  font-size: 40px;
+  span {
+    &:first-child {
+      color: $FirstColor;
+      font-weight: bold;
+    }
+    &:last-child {
+      color: $SecondColor;
+    }
+  }
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  color: $FirstColor;
+  &:hover {
+    color: $SecondColor;
+  }
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: $SecondColor;
+}
+
+/* End Nav bar */

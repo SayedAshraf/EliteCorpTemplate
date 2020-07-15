@@ -1,0 +1,46 @@
+/* Start Upper Bar */
+.upper-bar {
+  background-color: #08526d;
+  color: #fff;
+  padding: 10px;
+}
+.upper-bar .letwork {
+  color: #ddd;
+}
+.upper-bar .getqoute {
+  display: inline-block;
+  margin-left: 10px;
+  border: 1px solid #ec1c23;
+  padding: 3px 6px;
+}
+
+/* End Upper bar */
+/* End Nav bar */
+.navbar-brand {
+  font-size: 40px;
+}
+.navbar-brand span:first-child {
+  color: #08526d;
+  font-weight: bold;
+}
+.navbar-brand span:last-child {
+  color: #ec1c23;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  color: #08526d;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ec1c23;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ec1c23;
+}
+
+/* End Nav bar */
+
+/*# sourceMappingURL=style.css.map */
