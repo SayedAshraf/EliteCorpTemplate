@@ -22,14 +22,14 @@
                 </div>
                 <div class="col-sm text-right">
                     <span class="letwork"> Let's Work together </span>,
-                    <span class="getqoute"> Get Quote </span>
+                    <a class="getqoute" href="#"> Get Quote </a>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Upper Bar -->
     <!-- Start Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <span>Elite</span><span>Corp</span>
@@ -60,13 +60,31 @@
         </div>
     </nav>
     <!-- End Nav Bar -->
-    <!-- Start Body -->
-
-    <!-- End Body -->
-
+    <!-- Start Slider -->
+    <div class="slider">
+        <div id="main-slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <h1>We're an Independent <br> Design and <span> Development </span><br> Agency.</h1>
+                <div class="overlay"></div>
+                <div class="carousel-item CarouselOne active"></div>
+                <div class="overlay"></div>
+                <div class="carousel-item CarouselTwo"></div>
+                <div class="overlay"></div>
+                <div class="carousel-item CarouselThre"></div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </div>
+    <!-- End Slider -->
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 </body>
+
 
 </html>
