@@ -1,12 +1,3 @@
-// $(function () {
-//   "use strict";
-//   //aduist slider height
-//   var winH = $(window).height(),
-//     upperH = $(".upper-bar").innerHeight(),
-//     navH = $(".navbar").innerheight();
-//   $(".slider").height(winH - (upperH + navH));
-// });
-
 $(document).ready(function () {
   "use strict";
   //aduist slider height
@@ -16,4 +7,9 @@ $(document).ready(function () {
   var navH = $(".navbar").innerHeight();
   console.log(navH);
   $(".slider , .carousel-item").height(winH - (upperH + navH));
+
+  //Featured Work Shuffles
+  $(".list-item").on("click", function () {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
 });
