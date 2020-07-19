@@ -19,6 +19,15 @@
   background-color: #ec1c23;
 }
 
+@media (min-width: 576px) {
+  .upper-bar {
+    justify-content: center;
+    align-items: center;
+  }
+  .upper-bar .getqoute {
+    border: none;
+  }
+}
 /* End Upper bar */
 /* End Nav bar */
 .navbar-brand {
@@ -91,6 +100,14 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .slider .carousel .carousel-inner h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+  }
+}
 /* End Slider */
 /* Start Futures */
 .futures {
@@ -120,6 +137,15 @@
   color: #777272;
 }
 
+@media (max-width: 576px) {
+  .futures {
+    margin: 0;
+    padding: 30px 0;
+  }
+  .futures .container {
+    margin: 0;
+  }
+}
 /* End Futures */
 /* Start OverView */
 .over-view {
@@ -163,6 +189,46 @@
   cursor: pointer;
 }
 
+@media (max-width: 850px) {
+  .over-view h1 {
+    font-size: 35px;
+  }
+  .over-view p {
+    font-size: 17px;
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .over-view h1 {
+    font-size: 35px;
+  }
+  .over-view p {
+    font-size: 15px;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .over-view h3 {
+    font-size: 15px;
+    padding: 0;
+    letter-spacing: 2px;
+  }
+  .over-view button {
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    padding: 0 5px;
+    letter-spacing: 3px;
+    min-width: 120px;
+  }
+}
+@media (max-width: 400px) {
+  .over-view p {
+    width: 100%;
+  }
+}
 /* End Overview */
 /* Start Featured Work */
 .futured-work h1 {
@@ -332,6 +398,13 @@
   height: 60px;
 }
 
+@media (max-width: 765px) {
+  .main-testimonial .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 20;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /*End testimonial */
 /*Start  Pricing Table  */
 .pricing-table {
@@ -427,13 +500,13 @@
   color: #ddd;
   padding: 10px 50px;
 }
-.choose-us .col-md-6 {
+.choose-us .info {
   padding: 0;
 }
-.choose-us .col-md-6:last-child {
+.choose-us .info:last-child {
   background-color: #08526d;
 }
-.choose-us .col-md-6 .btn {
+.choose-us .info .btn {
   background-color: #ec1c23;
   color: #fff;
   text-transform: uppercase;
@@ -441,7 +514,55 @@
   margin: 0px 50px;
 }
 
+@media (max-width: 765px) {
+  .choose-us h1 {
+    font-size: 30px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .choose-us p {
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-left: 20px;
+  }
+  .choose-us .info .btn {
+    margin: 20px 0 20px 30px;
+  }
+}
 /*End Chooose Us  */
+/* COntact us */
+.contact-us {
+  padding: 100px 0;
+  background-color: #ec1c23;
+  color: #fff;
+}
+.contact-us p {
+  font-size: 30px;
+  font-family: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.contact-us .contact-btn {
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-family: bold;
+  font-size: 30px;
+}
+.contact-us .contact-btn:hover {
+  background-color: #08526d;
+  color: #fff;
+  font-family: bold;
+}
+@media (max-width: 576px) {
+  .contact-us .contact-us {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* end Contact Us */
 /* Start helpFul Section */
 .helpful-section {
   background-color: #f7f7f7;
@@ -522,6 +643,14 @@
   color: #ec1c23;
 }
 
+@media (max-width: 750px) {
+  .social-footer .one {
+    text-align: center !important;
+  }
+  .social-footer .two {
+    text-align: center !important;
+  }
+}
 /*End helpful Section */
 .futured-work .list-unstyled .list-item, .shuffle-images .row .col-md {
   -webkit-transition: all 0.5s ease-in-out;

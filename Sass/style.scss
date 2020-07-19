@@ -22,6 +22,15 @@ $SecondColor: #ec1c23;
     }
   }
 }
+@media (min-width: 576px) {
+  .upper-bar {
+    justify-content: center;
+    align-items: center;
+    .getqoute {
+      border: none;
+    }
+  }
+}
 /* End Upper bar */
 
 /* End Nav bar */
@@ -103,6 +112,20 @@ $SecondColor: #ec1c23;
     }
   }
 }
+@media (max-width: 768px) {
+  .slider {
+    .carousel {
+      .carousel-inner {
+        h1 {
+          color: #fff;
+          font-size: 40px;
+          text-align: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
 /* End Slider */
 
 /* Start Futures */
@@ -130,6 +153,30 @@ $SecondColor: #ec1c23;
     p {
       color: #777272;
     }
+  }
+}
+@media (max-width: 576px) {
+  .futures {
+    margin: 0;
+    .container {
+      margin: 0;
+    }
+    padding: 30px 0;
+    // .future-item {
+    //   text-align: center;
+    //   margin-bottom: 40px;
+    //   i {
+    //     text-align: center;
+    //     background-color: $SecondColor;
+    //     width: 100px;
+    //     height: 100px;
+    //     color: #fff;
+    //     line-height: 100px;
+    //     border-radius: 100px;
+    //     margin-bottom: 20px;
+    //     font-size: 30px;
+    //   }
+    // }
   }
 }
 /* End Futures */
@@ -173,6 +220,52 @@ $SecondColor: #ec1c23;
     min-width: 170px;
     box-sizing: border-box;
     cursor: pointer;
+  }
+}
+@media (max-width: 850px) {
+  .over-view {
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 17px;
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .over-view {
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 15px;
+      padding: 0;
+      width: 100%;
+      margin: 0;
+    }
+    h3 {
+      font-size: 15px;
+      padding: 0;
+      letter-spacing: 2px;
+    }
+    button {
+      margin-bottom: 30px;
+      font-size: 15px;
+      font-weight: 900;
+      line-height: 20px;
+      padding: 0 5px;
+      letter-spacing: 3px;
+      min-width: 120px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .over-view {
+    p {
+      width: 100%;
+    }
   }
 }
 /* End Overview */
@@ -323,12 +416,6 @@ $SecondColor: #ec1c23;
         width: 100px;
         cursor: pointer;
       }
-      // .carousel-control-next-icon {
-      //   background-color: $SecondColor;
-      //   width: 100px;
-      //   height: 100px;
-      //   color: $fff;
-      // }
     }
   }
   .carousel-inner {
@@ -363,6 +450,19 @@ $SecondColor: #ec1c23;
   background-color: #000;
   width: 40px;
   height: 60px;
+}
+@media (max-width: 765px) {
+  .main-testimonial {
+    .carousel-inner {
+      .carousel-item {
+        .carousel-caption {
+          margin-bottom: 20;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
 }
 /*End testimonial */
 
@@ -461,7 +561,7 @@ $SecondColor: #ec1c23;
     color: #ddd;
     padding: 10px 50px;
   }
-  .col-md-6 {
+  .info {
     padding: 0;
     &:last-child {
       background-color: $FirstColor;
@@ -475,7 +575,59 @@ $SecondColor: #ec1c23;
     }
   }
 }
+@media (max-width: 765px) {
+  .choose-us {
+    h1 {
+      font-size: 30px;
+      padding: 10px 30px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    p {
+      font-size: 20px;
+      padding: 5px 20px;
+      margin-left: 20px;
+    }
+    .info {
+      .btn {
+        margin: 20px 0 20px 30px;
+      }
+    }
+  }
+}
 /*End Chooose Us  */
+
+/* COntact us */
+.contact-us {
+  padding: 100px 0;
+  background-color: $SecondColor;
+  color: #fff;
+  p {
+    font-size: 30px;
+    font-family: bold;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contact-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: bold;
+    font-size: 30px;
+    &:hover {
+      background-color: $FirstColor;
+      color: #fff;
+      font-family: bold;
+    }
+  }
+  @media (max-width: 576px) {
+    .contact-us {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+/* end Contact Us */
 
 /* Start helpFul Section */
 .helpful-section {
@@ -566,7 +718,16 @@ $SecondColor: #ec1c23;
     }
   }
 }
-
+@media (max-width: 750px) {
+  .social-footer {
+    .one {
+      text-align: center !important;
+    }
+    .two {
+      text-align: center !important;
+    }
+  }
+}
 /*End helpful Section */
 
 //PlaceHolder Transation
